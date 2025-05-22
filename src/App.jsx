@@ -2,9 +2,9 @@ import Landing from "./routes/landing";
 import {Routes, Route, Navigate} from 'react-router-dom';
 import Login from "./routes/Login";
 import Signup from "./routes/Signup";
-import Navbar from "./routes/Components/Navbar";
-import {useAuth} from "./context/AuthContext";
-import ProtectedRoute from "./routes/Components/ProtectedRoute";
+import Navbar from "./Components/Navbar";
+import {useAuth} from "./Context/AuthContext";
+import ProtectedRoute from "./Components/ProtectedRoute";
 import Dashboard from "./routes/Dashboard";
 
 
